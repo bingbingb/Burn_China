@@ -1,0 +1,164 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2019-8-9, 8:13:46
+    Author     : sucb
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	overflow-x: hidden
+}
+.beijing {
+	width: calc(100%);
+	margin-top: calc(7%);
+	background-color: #ffffff;
+}
+.nWen1 {
+	width: calc(33%);
+	background-color: #ffffff;
+	margin-top: calc(5%)
+}
+.nWen1 img{
+	width:calc(100%);
+	padding-top: 30px;
+}
+.nWen1 p{
+	font-size:20px;
+	padding: 70px 40px 55px 40px;
+	line-height: 35px;
+}
+.nWen2 {
+	width:calc(65%);
+	margin-top: calc(-38%);
+	margin-left: calc(35%);
+	background-color: #ffffff;
+}
+.nWen2 h1{
+	width: 40%;
+	padding: 20px 20px 20px 80px;
+	text-align: center;
+}
+.nWen2 p{
+	width: 40%;
+	padding: 0px 20px 20px 80px;
+	font-size: 20px;
+	line-height: 35px
+}
+.nTu1{
+	width:45%;
+	margin-top: calc(-56%);
+	margin-left: calc(55%)
+}
+.nTu2{
+	width: calc(40%);
+	padding-top: 20px;
+	margin-top: calc(2%);
+	background-color: #ffffff;
+}
+.nWen3{
+	width: calc(57%);
+	background-color: #ffffff;
+	margin-top: calc(-44.4%);
+	margin-left: calc(43%);
+}
+.nWen3 h1{
+	width: calc(53%);
+	padding: 80px 20px 20px 170px;
+	text-align: center;
+}
+.nWen3 p{
+	width: 80%;
+	font-size: 20px;
+	line-height: 40px;
+	padding: 20px 20px 40px 100px;
+}
+.nTu3 img{
+	width: calc(46.2%);
+	padding: 20px 20px 20px 25px;
+}
+.nTu3 {
+	width: calc(92%);
+	margin-left: calc(3%);
+	background-color: #ffffff;
+	margin-top: calc(3%)
+}
+.nWen4{
+	width: calc(42%);
+	font-size: 20px;
+	line-height: 40px;
+	margin-left: calc(3%);
+	margin-top: calc(2%);
+	background-color: #ffffff;
+	padding: 20px 20px 0px 20px;
+}
+.nBiao1{
+	width: calc(45%);
+	height: 570px;
+	text-align: center;
+	background-color: #ffffff;
+	margin-top: calc(-38%);
+	margin-left: calc(50%)
+}
+.nBiao1 h1{
+	width: 70%;
+	margin-left: 15%;
+	margin-top: calc(-45%)
+}
+.nBiao1 img{
+	width: calc(70%);
+	margin-top: calc(-10%);
+	margin-left: calc(-20%)
+}
+.nTu4{
+	width: calc(100%);
+	height: 700px;
+	margin-top: calc(3%);
+}
+.nWen5{
+	width:calc(50%);
+	background-color: rgba(255,178,180,0.8);
+	position:absolute;
+	padding-top: 65px;
+	margin-top: calc(-46.3%);
+	margin-left: calc(50%)
+}
+.nWen5 h1{
+	text-align: center;
+}
+.nWen5 p{
+	font-size: 20px;
+	line-height: 40px;
+	padding: 30px 100px 40px 100px;
+	color:#F1F0EC;
+}
+.nBox1{
+	width: 100px;
+	height: 40px;
+	background-color: #bc0000;
+	margin-top: calc(-4.5%)
+}
+.nWen6{
+	width:calc(30%);
+	background-color:#ffffff;
+}
+.nWen6 h1{
+	width: 80%;
+	height: 250px;
+	padding: 30px 20px 30px 40px;
+	text-align: center;
+}
+.nWen6 p{
+	font-size: 20px;
+	height: 250px;
+	padding: 30px 30px ;
+	line-height: 40px
+}
+.nWen6 img{
+	width: 100%;
+}

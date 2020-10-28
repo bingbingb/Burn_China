@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2019-8-3, 15:37:46
+    Author     : sucb
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	overflow-x: hidden;
+}
+.cbeijing {
+	width: calc(100%);
+	margin-top: calc(7%);
+}
+.wangBiao{
+	width: calc(60%);
+	height: 100px;
+	font-size: 40px;
+	background-color: #B10000;
+	color:#FEE9B3;
+	margin-left: calc(20%);
+	text-align: center;
+	line-height: 100px;
+}
+.wangBiao span{
+	position:absolute;
+	width: 120px;
+	height: 30px;
+	background-color: #FFF0C4;
+	color: #FFF0C4;
+	margin-top: calc(4%);
+	margin-left: calc(4%);
+}
+.wangWen1{
+	width: calc(55%);
+	height: 200px;
+	margin-left: calc(23%);
+	margin-top: calc(6%);
+	font-size: 25px;
+	line-height: 40px;
+}
+.wangTu1{
+	width: calc(100%);
+	height: 700px;
+	margin-top: calc(5%);
+}
+.wangTu1 img{
+	width: calc(25%);
+	margin-left: calc(4%);
+}
+.wangxTu1{
+	width: calc(100%);
+	height: 120px;
+	
+}
+.wangxTu1 img{
+	width: 100px;
+	margin-top: calc(1%);
+}
+.wangWen2{
+	position:absolute;
+	width: calc(60%);
+	height: 470px;
+	background-color: rgba(241,244,245,0.7);
+	margin-left: calc(20%);
+	margin-top: calc(15%);
+}
+.wangWen2 h1{
+	text-align: center;
+	color: #B00000;
+	font-size: 40px;
+	padding-top: calc(4%);
+}
+.wangWen2 p{
+	font-size: 25px;
+	line-height: 45px;
+	padding: 100px 30px 30px 30px;
+}
+.wangWen3 img{
+	width: calc(45%);
+	margin-top: calc(8%);
+	margin-left: calc(7%);
+}
+.wangWen3 h1{
+	color:#B10000;
+	margin-top: calc(-30%);
+	margin-left: calc(65%);
+	letter-spacing: 3px;
+}
+.wangWen3 p{
+	width: calc(30%);
+	height: 400px;
+	margin-left: calc(58%);
+	margin-top: calc(2%);
+	padding: 20px 20px;
+	font-size: 20px;
+	line-height: 40px;
+	background-color: #fff9e0;
+}
+.wangBox{
+	width: calc(100%);
+	height: 70px;
+	background-color: #B00000;
+	margin-top: calc(3%);
+}
+.wangWen4{
+	font-size: 25px;
+	margin-top: calc(5%);
+	margin-left: calc(40%);
+	letter-spacing: 3px;
+}
+.wangTu2{
+	width: calc(25%);
+	height: 750px;
+	text-align: center;
+}
+.wangTu2 h2{
+	margin-top: calc(4%);
+	width: 100%;
+	height: 50px;
+}
+.wangTu2 p{
+	width: 80%;
+	height: 260px;
+	padding: 20px 20px;
+	margin-left: calc(5%);
+	margin-top: calc(3%);
+	text-align: left;
+	font-size: 20px;
+	line-height:35px;
+	background-color: #FFF8E4;
+	border:3px dashed #B00000;
+}
+.wangTu2 img{
+	width: 100%;
+}
+.jie{
+	width: calc(100%);
+	height: 40px;
+	background-color: #E3E0E1;
+}

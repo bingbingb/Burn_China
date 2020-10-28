@@ -1,0 +1,134 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2019-8-6, 8:39:16
+    Author     : sucb
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+.beijing{
+	width: calc(100%);
+	margin-top: calc(7%);
+}
+.guoji2{
+	width:calc(100%);
+	height: 750px;
+	background-color: #D85F8B;
+	position:relative;
+}
+.guoWen1{
+	width: calc(21%);
+	height: 460px;
+	font-size: 18px;
+	line-height: 32px;
+	padding: 30px 20px 20px 20px;
+	background-color: #AF5152;
+	margin-left: calc(21.5%);
+	margin-top: calc(-17%);
+	color:#343452;
+}
+.guoTu1{
+	width:calc(30%);
+	height: 320px;
+	margin-top: calc(-22%);
+	margin-left: calc(46.5%);
+}
+.guoxTu{
+	font-size: 27px;
+	text-align: center;
+	background-color: #868182;
+	width: 47.5%;
+	color:whitesmoke
+}
+.guoxTu img{
+	width: 100%;
+}
+.guoTu2{
+	position:absolute;
+	width: calc(70%);
+	height: 710px;
+	background-color: #fff;
+	margin-left: calc(15%);
+	margin-top: calc(3%);
+}
+.guoxTu1{
+	position:absolute;
+	width: calc(34%);
+	margin-left: calc(8%);
+}
+.guoxTu2{
+	width: calc(38%);
+	position:absolute;
+	margin-left: calc(50%);
+	margin-top: calc(-25%);
+}
+.guoTu2 h1{
+	text-align: center;
+	width: calc(30%);
+	height: 60px;
+	margin-left: calc(10%);
+	margin-top: calc(4%);
+}
+.guoTu2 p{
+	font-size: 18px;
+	width: calc(30%);
+	height: 180px;
+	line-height: 30px;
+	margin-left: calc(10%);
+}
+.guoWen2{
+	width: calc(20%);
+	height: 450px;
+	font-size: 21px;
+	line-height: 42px;
+	padding: 30px 30px;
+	margin-top: calc(8%);
+	margin-left: calc(21%);
+	border: 10px solid #AE5152;
+}
+.guoxTu3{
+	width: calc(14%);
+	position:absolute;
+	margin-left: calc(49%);
+	margin-top: calc(-35%);
+}
+.guoxTu4{
+	width: calc(25%);
+	position:absolute;
+	margin-top: calc(-13%);
+	margin-left: calc(49%);
+}
+.guoBiao1{
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 10px;
+	color:#2E2F2D;
+}
+.guoxWen1{
+	width: calc(20%);
+	height: 450px;
+	font-size: 20px;
+	line-height: 35px;
+	padding: 40px 20px 0px 30px;
+	background-color: #B63C3A;
+	color: #EFD89D;
+	margin-top: calc(15%);
+	margin-left: calc(11%);
+}
+.guoTu3{
+	width: calc(25%);
+	height: 450px;
+	font-size: 22px;
+	padding: 20px 10px 20px 20px;
+	line-height: 40px;
+	background-color: #D58F8B;
+	color:#52514D;
+}
+.guoTu3 img{
+	width: 95%;
+}

@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2019-8-1, 18:11:51
+    Author     : sucb
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+.cbeijing {
+	width: calc(100%);
+	margin-top: calc(7%);
+}
+.luTu1{
+	width: calc(100%);
+	height: 500px;
+	margin-top: calc(8%);
+}
+.luWen1{
+	width:calc(25%);
+	height: 200px;
+	text-align: center;
+	padding-top: 30px;
+	position:relative;
+	margin-top: calc(-13.5%);
+	margin-left: calc(56.5%);
+	background-color: rgba(252,243,214,0.95);
+	padding: 30px 40px;
+}
+.luWen1 p{
+	font-size: 20px;
+	line-height: 40px;
+	letter-spacing: 5px;
+	padding-top: 20px;
+}
+.luWen2{
+	margin-left: calc(20%);
+	margin-top: calc(5%);
+	font-size:25px;
+}
+.luXian1{
+	display: inline-block;
+	border-top:5px solid #756F6E;
+	vertical-align: 7px;
+	width:calc(50%);
+}
+.luTu2{
+	width: calc(25%);
+	margin-left: calc(-8%);
+	margin-top: calc(3%);
+}
+.lubox2{
+	width: calc(7%);
+	height: 400px;
+	position:absolute;
+	margin-top: calc(-37%);
+	margin-left: calc(15%);
+}
+.lubox2 img{
+	width:100%;
+	position:relative;
+}
+.luWen3{
+	font-size:25px;
+	line-height: 50px;
+	padding: 20px 20px;
+	background-color:rgba(252,243,216,0.8);
+	color:#373634;
+	border:6px dashed red;
+	border-radius: 15px;
+	width:calc(50%);
+	margin-top: calc(-45%);
+	margin-left: calc(29%);
+}
+.luTu3{
+	width: calc(100%);
+	margin-top: calc(10%);
+}
+.luWen4{
+	position:relative;
+	width: calc(27%);
+	height: 500px;
+	line-height: 40px;
+	font-size: 22px;
+	padding: 30px 30px;
+	margin-top: calc(-40%);
+	margin-left: calc(65%);
+}
+.luWen4 h1{
+	padding: 30px 20px;
+	text-align: center;
+}
+.luWen5{
+	margin-top: calc(15%);
+	margin-left: calc(20%);
+	font-size:25px;
+	font-weight: 600;
+}
+.luTu4{
+	width: calc(70%);
+	margin-left: calc(15%);
+	margin-top: calc(4%);
+}
+.lubox3{
+	width: calc(50%);
+	height: 110px;
+	position:absolute;
+	margin-left: calc(40%);
+	margin-top: calc(-37%);
+	margin-left: calc(45%);
+}
+.lubox3 img{
+	width: 100px;
+	height: 100px;
+	transform: rotate(30deg);
+	position:relative;
+	vertical-align: -25px;
+}
+.luTu5{
+	width:calc(25%);
+	margin-left: calc(15%);
+	
+}
+.luWen6{
+	width:calc(85%);
+	margin-top: calc(0%);
+	margin-left: calc(-5%);
+	border:6px dashed red;
+	padding:20px 0;
+	font-size:25px;
+	line-height: 50px;
+	background-color: #FCF3D8;
+	color:#373634;
+}
+.luWen7{
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 40px;
+	letter-spacing: 5px;
+	margin-left: calc(20%);
+	margin-top: calc(10%);
+}
+.luTu7{
+	width: calc(70%);
+	height: 200px;
+	margin-left: calc(15%);
+	margin-top: calc(4%);
+}
+.luTux{
+	float: left;
+	margin-left: calc(5%);
+}
+.luTu9{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin-top: calc(-9%);
+	margin-left: calc(12%);
+}
+
+.luTux img{
+	width:200px;
+}
+.luTux p{
+	width: 80px;
+	height: 30px;
+	font-size: 25px;
+	border:2px dashed red;
+	background-color: #FCF3D8;
+	text-align: center;
+	margin-left: calc(30%);
+}
+.jie{
+	width: calc(100%);
+	height: 100px;
+	background-color: rgba(227,224,225,0.8);
+	margin-top: calc(8%);
+}

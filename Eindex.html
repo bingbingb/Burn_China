@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Burn it! China</title>
+	<link href="css/jquery.fullPage.css" rel="stylesheet" type="text/css"/>
+	<link href="css/header.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+</head>
+
+<body>
+	<div class="beita" style="background-color: #FFF;width: calc(100%);
+				height: calc(100%);overflow: hidden;
+				position:fixed;
+				z-index: 100000;">
+	<div  style="width: calc(100%);
+				height: calc(100%);
+				background: url(img2/地图.png) no-repeat center bottom;
+				overflow: hidden;
+				">
+			<h1 id="bt" style="display: none;">&emsp;Burn it! China <br/> love you! My Chinese Dream!</h1>
+			<h1 id="jh"></h1>
+		</div>
+		</div>
+	<header>
+			<div id="myTop">
+			<img id="fire" src="img/火.png" alt=""/>
+			<h4 id="title"><i>Burn it! <br> China</i></h4>
+			<p id="subhead">The Great Blessing of the People<br/> and the Great Power of the Country</p>
+				<form id="search" action="http://www.baidu.com/s" method="get" target="_blank">
+					<input type="text" id="search-input" name="wd" placeholder="Search" />
+					<input type="submit" value="Search" />
+				</form>
+			<a href="messageBoard.html">
+				<img src="img/英文留言按钮.png" style="width: calc(10%);position:fixed;margin-left: calc(86%);margin-top: calc(2%);z-index: 1000" alt=""/>
+			</a>
+		<div class="btn-audio" style="position:fixed;margin-top: calc(44%);z-index: 1000; width: 50px; height: 50px;
+        background:url(img/zanting.png) no-repeat center bottom;
+        background-size:cover;">
+			<audio id="mp3Btn" autoplay="autoplay">
+			<source src="img/music.mp3" type="audio/mpeg">
+			Your browser does not support the <code>audio</code> tag.
+		</audio>
+			</div>
+			<div id="menu" >
+				<ul>
+					<li><a href="Eindex.html">home page</a>
+					<li><a href="#">achievement</a>
+						<ul>
+							<li><a href="Eqiao.html">China Bridge</a></li>
+							<li><a href="Elu.html">China Road</a></li>
+							<li><a href="Eche.html">Chinese car</a></li>
+							<li><a href="Egang.html">China Port</a></li>
+							<li><a href="Ewang.html">China Networks</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Economic Culture</a>
+					<ul>
+							<li><a href="Ejingji.html">Economic development</a></li>
+							<li><a href="Einherit.html">Cultural Inheritance</a></li>
+							<li><a href="Elishi.html">Historical Evolution</a></li>
+							<li><a href="Eguoji.html">International</a></li>
+							<li><a href="Escan.html">Overview of Culture</a></li>
+						</ul>
+					</li>
+					<li><a href="#">technology</a>
+					<ul>
+							<li><a href="Espace.html">space science</a></li>
+							<li><a href="Enow.html">modern science</a></li>
+							<li><a href="Elife.html">life sciences</a></li>
+						</ul>
+					</li>
+					<li><a href="#">&emsp;Military&emsp;</a>
+						<ul>
+							<li><a href="Ejfazhan.html" style="font-size: 10px">Military development</a></li>
+							<li><a href="Efang.html"  style="font-size: 10px">On National Defense</a></li>
+							<li ><a href="Etixi.html" style="font-size: 10px">Military Law System</a></li>
+							<li><a href="Ebuilt.html">Team building</a></li>
+							<li ><a href="EjCjiu.html" style="font-size: 10px">significant achievements</a></li>
+						</ul>
+					</li>
+					<li><a href="Equestion.html">Knowledge contest</a></li>
+					<li><a href="Eabout_us.html">About us</a></li>
+					<li><a href="index.html"><b class="xian">Chinese</b></a></li>
+				</ul>
+				
+			</div>
+			</div>
+		</header>
+	<div id="index_main" class="index_main">
+	<div class="section section1">
+		<div class="c-banner">
+				<div class="banner">
+					<ul>
+						<li><a href="Eindex.html"><img src="img/主背景.jpg" alt=""></a></li>
+						<li><a href="Eqiao.html"><img src="img/成就.jpg" alt=""></a></li>
+						<li><a href="Ejingji.html"><img src="img/经济文化.jpg" alt=""></a></li>
+						<li><a href="Espace.html"><img src="img/科技.jpg" alt=""></a></li>
+						<li><a href="Ejfazhan.html"><img src="img/军事.jpg" alt=""></a></li>
+						<li><a href="Equestion.html"><img src="img/知识竞赛.jpg" alt=""></a></li>
+						<li><a href="Eabout.html"><img src="img/关于我们.jpg" alt=""></a></li>
+					</ul>
+					
+				</div>
+				<div class="nexImg">
+					<p><strong>&gt;</strong></p>
+				</div>
+				<div class="preImg">
+					<p><strong>&lt;</strong></p>
+				</div>
+				<div class="jumpBtn">
+					<ul>
+						<li jumpImg="0"></li>
+						<li jumpImg="1"></li>
+						<li jumpImg="2"></li>
+						<li jumpImg="3"></li>
+						<li jumpImg="4"></li>
+						<li jumpImg="5"></li>
+						<li jumpImg="6"></li>
+					</ul>
+				</div>
+			</div>
+	</div>
+		<div class="section">
+			<div class="xbai">
+				<span class="mline"></span>
+			</div>
+			<div class="xfen">
+				<span class="mline"></span>
+			</div>
+			<div class="xbai">
+				<p class="roll">
+					<span class="xline" style="width: "></span>
+					<b class="xian">—</b>
+					achievement
+					<b class="xian">—</b>
+					<span class="xline"></span>
+				</p>
+			</div>
+			<div class="xfen">
+				<span class="mline"></span>
+			</div>
+			<div class="xbai">
+				<span class="mline"></span>
+			</div>
+			<div style="width: calc(100%);height: calc(1%);float: left;z-index: 10;">
+					<span class="heng1" style="border-top:8px solid #9C9A9B;margin-left: calc(-0.5%);height: 100%"></span>
+					<span class="heng1" style="border-top:8px solid #F4F2F3;height: 100%"></span>
+			</div>
+			<div class="bai"></div>
+			<div class="fen">
+				<a href="Eqiao.html">
+					<img class="tucj" src="img/中国桥.png" alt=""/>
+					<p class="tuWen">China Bridge</p>
+				</a>
+			</div>
+			<div class="bai">
+				<a href="Elu.html">
+					<img class="tucj" src="img/中国路.png" alt=""/>
+					<p class="tuWen">China Road</p>
+				</a>
+			</div>
+			<div class="fen">
+				<a href="Eqiao.html">
+					<img class="tucj" src="img/中国车.png" alt=""/>
+					<p class="tuWen">Chinese car</p>
+				</a>
+			</div>
+			<div class="bai"></div>
+			<div class="fen"></div>
+			<div class="bai">
+				<a href="Egang.html">
+					<img class="tucj" src="img/中国港.png" alt=""/>
+					<p class="tuWen">China Port</p>
+				</a>
+			</div>
+			<div class="fen">
+			<a href="Equestion.html">	
+				<img class="tucj" id="elf1" src="img/精灵1.png" alt=""/>
+				<p class="elf">Click on me to answer the question</p>
+				</a>
+			</div>
+			<div class="bai">
+				<a href="Ewang.html">
+					<img class="tucj" src="img/中国网.png" alt=""/>
+					<p class="tuWen">China Networks</p>
+					</a>
+			</div>
+			<div class="fen"></div>
+		</div>
+		<div class="section">
+			<div class="mtitle">
+				<p class="roll">
+					<span class="line"></span>
+					<b class="xian">—</b>
+					Economic Culture
+					<b class="xian">—</b>
+					<span class="line"></span>
+				</p>
+			</div>
+				<div id="jiwen">
+					<div class="jpre">
+					<p><strong>&lt;</strong></p>
+					</div>
+					<div class="jnex">
+					<p><strong>&gt;</strong></p>
+					</div>
+					<div class="jilun">
+						<ul id="jiLun">
+							<li>
+								<a href="Ejingji.html">
+									<img class="jitu" src="img/E经济发展.jpg" alt=""/>
+									<p class="jilunWen">Economic development</p>
+								</a>
+							</li>
+							<li> 
+								<a href="Einherit.html">
+									<img class="jitu" src="img/E文化传承.jpg" alt=""/>
+									<p class="jilunWen">Cultural Inheritance</p>
+								</a>
+							</li>
+							<li> 
+								<a href="Elishi.html">
+									<img class="jitu" src="img/E历史沿革.jpg" alt=""/>
+									<p class="jilunWen">Historical Evolution</p>
+								</a>
+							</li>
+							<li>
+								<a href="Eguoji.html">
+									<img class="jitu" src="img/E国际影响.jpg" alt=""/>
+									<p class="jilunWen">international repercussions</p>
+								</a>
+							</li> 
+							<li>
+								<a href="Escan.html">
+									<img class="jitu" src="img/E文化纵览.jpg" alt=""/>
+									<p class="jilunWen">Overview of Culture</p>
+								</a>
+							</li>
+							<li>
+								<a href="Ejingji.html">
+									<img class="jitu" src="img/E经济发展.jpg" alt=""/>
+									<p class="jilunWen">Economic development</p>
+								</a>
+							</li>
+							<li> 
+								<a href="Einherit.html">
+									<img class="jitu" src="img/E文化传承.jpg" alt=""/>
+									<p class="jilunWen">Cultural Inheritance</p>
+								</a>
+							</li>
+							<li> 
+								<a href="Elishi.html">
+									<img class="jitu" src="img/E历史沿革.jpg" alt=""/>
+									<p class="jilunWen">Historical Evolution</p>
+								</a>
+							</li>
+							<li>
+								<a href="Eguoji.html">
+									<img class="jitu" src="img/E国际影响.jpg" alt=""/>
+									<p class="jilunWen">international repercussions</p>
+								</a>
+							</li> 
+							<li>
+								<a href="Escan.html">
+									<img class="jitu" src="img/E文化纵览.jpg" alt=""/>
+									<p class="jilunWen">Overview of Culture</p>
+								</a>
+							</li>
+						</ul>
+						<span class="heng" style="border-top:8px solid #9C9A9B;"></span>
+						<span class="heng" style="border-top:8px solid #E0DFDF;margin-left: calc(50%)"></span>
+					</div>
+				</div>
+		</div>
+		<div class="section">
+				<div class="ktitle">
+				<p class="roll">
+					<span class="line"></span>
+					<b class="xian">—</b>
+					&nbsp;technology&nbsp;
+					<b class="xian">—</b>
+					<span class="line"></span>
+				</p>
+				</div>
+				<div id="keji">
+					<img class="quan" id="quan" src="img/圈.png" alt=""/>
+				
+				<a href="Espace.html">
+					<div class="space">
+						<img src="img/空间科学.png" alt=""/>
+						<p>space science</p>
+					</div>
+				</a>
+				<a href="Espace.html">
+					<div class="now">
+						<img src="img/现代科学.png" alt=""/>
+						<p>modern science</p>
+					</div>
+				</a>
+				<a href="Espace.html">
+					<div class="life">
+						<img src="img/生命科学.png" alt=""/>
+						<p>life sciences</p>
+					</div>
+				</a>
+			</div>
+			<div class="red"></div>
+		</div>
+		<div class="section section5">
+			<div class="ktitle">
+					<span class="heng1" style="border-top:8px solid #9C9A9B;margin-left: calc(-0.5%)"></span>
+					<span class="heng1" style="border-top:8px solid #F4F2F3;"></span>
+				<p class="roll">
+					<span class="line"></span>
+					<b class="xian">—</b>
+					&nbsp;Military&nbsp;
+					<b class="xian">—</b>
+					<span class="line"></span>
+				</p>
+			</div>
+			<div class="jun">
+			<div class="juntu"><img src="img/军事2.jpg" alt=""/></div>
+			<div class="junWen">
+				<p class="mainWen">
+					&emsp;&emsp;The construction of first-class army depends on first-class science and technology. In recent years,
+The engine of innovation-driven development of the People's Army has been fully launched to develop new combat forces and build a network information system.
+We will accelerate research and development of high-tech weapons and equipment and strengthen major technology research. Breakthroughs in technology are catching up with and surpassing each other.
+The sharp weapon of each country has come into being, which has led to the overall leap of national defense science and technology.
+What has been achieved is the hardness, strength and heroism of the Chinese nation towards the center of the world stage.
+				</p>
+				<ul style="margin-left: calc(10%);margin-top: calc(4%)">
+					<li style="margin-left:0px;background-color:#333333">Strong army</li>
+					<li style="background-color:#cccccc">innovate</li>
+					<li style="background-color:#990033">Over burning</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="ktitle">
+				<p class="roll">
+					<span class="line"></span>
+					<b class="xian">—</b>
+					&nbsp;About us&nbsp;
+					<b class="xian">—</b>
+					<span class="line"></span>
+				</p>
+			</div>
+			
+			<div class="about" style="background: url(img/长城背景.png);background-size: 100% ">
+				<div class="aboutWen" >
+					<p>
+						
+						<span class="guanWen">A small team</span> of four<br/>.
+						With <span class="guanWen">love for the motherland </span><br/>.
+						Depending on what we see and know<br/>.
+						Depending on the technology they have mastered<br/>.
+						Create a homepage about motherland <br/>&#8595<br/>.
+						Learn more about <br/>.
+						<a href="Eabout_us.html">
+							<img  class="gbei" src="img/关于2.png" alt=""/>
+							<img  class="gbei" src="img/关于1.png" alt=""/>
+							<img  class="gbei" src="img/关于3.png" alt=""/>
+						</a>
+					</p>
+				</div>
+				<span class="heng1" style="border-top:8px solid #9C9A9B;margin-left: calc(-0.5%)"></span>
+				<span class="heng1" style="border-top:8px solid #F4F2F3;"></span>
+			</div>
+			<div class="beizhu">
+				<p>
+				College of Computer Science and Accounting, Guangxi University of Science and Technology<br/>
+				Big Dream Team
+				</p>
+			</div>
+		</div>
+		</div>
+
+	<div id="loader" class="pageload-overlay" data-opening="M 40 -21.875 C 11.356078 -21.875 -11.875 1.3560784 -11.875 30 C -11.875 58.643922 11.356078 81.875 40 81.875 C 68.643922 81.875 91.875 58.643922 91.875 30 C 91.875 1.3560784 68.643922 -21.875 40 -21.875 Z" style="z-index: 11;">
+			<svg width="100%" height="100%" viewBox="0 0 80 60" preserveAspectRatio="xMidYMid slice">
+				<path d="M40,30 c 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 Z"/>
+			</svg>
+		</div>
+		<script src="js/snap.svg-min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/svgLoader.js"></script>
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript"  src="js/jquery.mousewheel.js"></script>
+		<script src="js/jquery.fullPage.min.js" type="text/javascript"></script>
+		<script src="js/lunbotu.js" type="text/javascript"></script>
+	<script src="js/index.js" type="text/javascript"></script>
+</body>
+</html>

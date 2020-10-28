@@ -1,0 +1,157 @@
+body{
+	background: url(../img2/bg.jpg) no-repeat;
+    background-size: 100% ;
+	
+}
+.ab_c {
+    width: calc(80%);
+	height: 680px;
+    padding: 0px 0 0px;
+    margin-left: calc(10%);
+	background-color: #fff;
+	margin-top:  calc(5%);
+
+	
+}
+.ab_haibao {
+    width: 100%;
+ 
+}
+/*item*/
+.ab_t {
+    transform: translateY(-50%);
+	margin-top: calc(-1%)
+}
+img.ab_p {
+    width: 190px;
+}
+img.ab_s {
+    width: 100px;
+    position: absolute;
+    left: 120px;
+}
+.ab_text {
+    width: 180px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: cursive;
+    line-height: 0px;
+	margin-top: calc(-1%);
+}
+.ab_e_text_1 span.s_e_1 {
+    color: #ff0000;
+    font-size: 26px;
+    vertical-align: middle;
+    padding-bottom: 4px;
+    display: inline-block;
+}
+.ab_e_text_1 span.s_e_2 {
+    vertical-align: middle;
+}
+.ab_e_text_1 img {
+    width: 35px;
+    float: right;
+    margin-right: 142px;
+	z-index: 1000;
+}
+.ab_e_text_1 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: cursive;
+	margin-top: calc(-3%)
+}
+.ab_e_left {
+    width: 360px;
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+	
+}
+.ab_e_right {
+    width: calc(70%);
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+	margin-left: calc(35%);
+	margin-top: calc(-7%)
+}
+.ab_d {
+    padding: 0 100px;
+}
+
+.ab_e_r_top img {
+    width: 70px;
+}
+.ab_e_text_4 span{
+    z-index: 2;
+    position: absolute;
+    padding: 73px 90px 75px 40px;
+    text-indent: 30px;
+}
+img.ab_e_img_2 {
+    width: 550px;
+	height: 370px;
+    position: absolute;
+   margin-left: calc(-30%);
+    top: calc(2%);
+    z-index: 1;
+}
+.ab_e_text_4 {
+    width: 100%;
+    position: relative;
+    margin-top: calc(-30%)
+}
+.ab_e_r_img_list img {
+    width: calc(32%);
+    margin-bottom: 10px;
+   
+}
+.ab_e_text_2 {
+  margin-left: calc(47%);
+   width:calc(40%) 
+}
+
+.ab_e_text_3 span {
+    line-height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 19px;
+	
+}
+img.ab_e_img_1 {
+    width: 100px;
+    margin-left: 36px;
+}
+.ab_e {
+    position: relative;
+    top: -60px;
+}
+
+.ab_e_r_img_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.ab_e_img_4{
+    float: right;
+    margin-right: 120px;
+}
+.ab_e_img_3{
+    float: left;
+    margin-left: 120px;
+}
+.ab_e_text_3 {
+    position: relative;
+	margin-top: calc(-5%)
+}
+.aboutzi{
+	z-index: 100;
+	position:absolute;
+	width: calc(70%);
+	margin-left: calc(10%);
+	padding-top: calc(20%)
+}

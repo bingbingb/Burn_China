@@ -1,0 +1,229 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2019-8-7, 22:59:31
+    Author     : sucb
+*/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.beijing {
+	width: calc(100%);
+	margin-top: calc(7%);
+}
+.mTu1{
+	width: calc(25%);
+	margin-top: calc(7%);
+	margin-left: calc(38%);
+}
+.mWen1{
+	width: calc(25%);
+	height: 300px;
+	padding: 20px 10px;
+	background-color: #bc0000;
+	margin-top: calc(-22.6%);
+	margin-left: calc(10%);
+}
+.mxWen1{
+	padding: 20px 20px;
+	font-size: 20px;
+	line-height: 30px;
+	color:#FCE7AE;
+}
+.mbox1{
+	width: 70px;
+	height: 30px;
+	background-color: #EA9697;
+	margin-left: calc(84%);
+	margin-top: calc(-10%);
+}
+.mWen2{
+	width:calc(19%);
+	font-size: 20px;
+	padding: 20px 20px;
+	margin-top: calc(-19%);
+	margin-left: calc(65%);
+}
+.mbox2{
+	width: 150px;
+	height: 30px;
+	border: 5px solid #bc0000;
+	margin-top: calc(10%);
+	margin-left: calc(10%)
+}
+.mxWen2{
+	font-size: 25px;
+	letter-spacing: 2px;
+	line-height: 40px;
+	margin-left: calc(25%);
+	margin-top: calc(5%);
+}
+.mXian1{
+	display: inline-block;
+	border-top:5px solid #756F6E;
+	vertical-align: -5px;
+	width:calc(52%);
+}
+.mWen3{
+	width: calc(41.5%);
+	border: 5px solid #bc0000;
+	padding: 20px 20px;
+	font-size: 20px;
+	margin-top: calc(-30%);
+	margin-left: calc(27.5%)
+}
+.mTu2{
+	width: calc(27.5%);
+	margin-top: calc(15%)
+}
+.mBiao1{
+	text-align: center;
+	padding: 10px 0;
+}
+.mWen4{
+	width: calc(30%);
+	height: 350px;
+	box-shadow: 2px 2px 5px #756F6E;
+}
+.mWen4 p{
+	font-size: 20px;
+	padding: 20px 20px;
+	line-height: 30px;
+}
+.mWen4 img{
+	width: 35%;
+	margin-top: calc(-12%);
+	margin-left: 65%;
+}
+.mstyle1{
+	margin-top: calc(-23%);
+	margin-left: calc(70%);
+	background-color: #BC0000;
+	color:#FCE7AE
+}
+.mTu3{
+	width:calc(25%);
+}
+.mxWen3{
+	width: calc(80%);
+	padding: 20px 20px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.mTu3 img{
+	width:100%;
+}
+.mTu4{
+	width:calc(100%);
+	margin-top: calc(7%);
+	height: 750px;
+}
+.mWen5 {
+	position:absolute;
+	width:calc(30%);
+	background-color: #444142;
+	margin-top: calc(-40%);
+	margin-left: calc(65%)
+}
+.mWen5 p{
+	padding: 30px 20px;
+	color:#D6D3D1;
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+.mWen5 h1{
+	color:#F9F4F3;
+	padding: 20px 20px 0px 20px;
+}
+.ming5{
+	background-color: rgba(240,237,238,0.7);
+	height: 750px;
+	margin-top: calc(7%);
+}
+.mTu5{
+	width: calc(50%);
+	margin-left: calc(40%);
+	margin-top: calc(7%);
+}
+.mWen6{
+	position:absolute;
+	width:calc(30%);
+	height: 400px;
+	border-radius: 50px;
+	background-color: #BC0000;
+	margin-left: calc(12%);
+	margin-top: calc(-30%)
+}
+.mWen6 h1{
+	padding:5px 15px 0px 15px;
+	letter-spacing: 2px;
+}
+.mWen6 p{
+	color:#FCE7AE;
+	font-size: 20px;
+	line-height: 30px;
+	padding: 20px 30px;
+}
+.mWen7 img{
+	width:calc(40%);
+	margin-top: calc(7%);
+	margin-left: calc(12%)
+}
+.mxWen4{
+	position:absolute;
+	width:calc(40%);
+	height: 410px;
+	background-color: #BC0000;
+	margin-left: calc(48%);
+	margin-top: calc(-20%)
+}
+.mxWen4 h2{
+	text-align: center;
+	padding-top: 40px;
+}
+.mxWen4 p{
+	color:#FCE7AE;
+	font-size: 21px;
+	line-height: 35px;
+	padding: 20px 40px;
+}
+.mbox3{
+	width:80px;
+	height: 30px;
+	background-color: #3E3B3C;
+	margin-left: calc(-5%);
+	margin-top: calc(-3%);
+}
+.mTu6{
+	width:calc(30%);
+	margin-top: calc(7%);
+	margin-left: calc(17%)
+}
+.mxWen5{
+	width:calc(30%);
+	margin-top: calc(-30%);
+	margin-left: calc(52%)
+}
+.mxWen5 h2{
+	padding-bottom: 30px;
+}
+.mxWen5 p{
+	font-size: 20px;
+	padding: 20px 30px;
+	background-color: #FFFBEA;
+	line-height: 30px;
+	letter-spacing: 2px;
+	border: 5px dashed #bc0000;
+}
+.jie{
+	width: calc(100%);
+	height: 50px;
+	background-color:rgba(255,255,255,0.8);
+	margin-top: calc(3%);
+}

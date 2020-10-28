@@ -1,0 +1,223 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2019-8-10, 11:51:53
+    Author     : sucb
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+.beijing {
+	width: calc(100%);
+	margin-top: calc(7%);
+}
+
+.qWen1{
+	width: calc(25%);
+	height: 290px;
+	background-color: #bc0000;
+	margin-left: calc(5%);
+	margin-top: calc(-23%);
+}
+.qBiao1{
+	font-size: 30px;
+	padding: 10px 0px 10px 100px;
+}
+.qXWen1{
+	font-size: 20px;
+	color:#FBE7AB;
+	padding: 10px 20px 10px 30px;
+	
+}
+.qXWen2{
+	width: calc(21%);
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	margin-top: calc(-19%);
+	margin-left: calc(70%)
+}
+.qBox2{
+	width: calc(10%);
+	height: 25px;
+	border: 2px solid #bc0000;
+	margin-left: calc(75%)
+}
+.qTu1{
+	width: calc(40%);
+	margin-top: calc(7%);
+	margin-left: calc(30%);
+}
+.qBox1{
+	width: calc(30%);
+	height: 25px;
+	background-color: rgba(255,254,299,0.7);
+	margin-left: calc(80%);
+	margin-top: calc(-5%);
+	position: relative;
+}
+.qBiao2{
+	font-size: 25px;
+	margin-top: calc(15%);
+	margin-left: calc(25%);
+}
+.qxian{
+	display: inline-block;
+	border-top:5px solid #756F6E;
+	vertical-align: -5px;
+	width:calc(52%);
+}
+.qTu2{
+	width: calc(39%);
+	height: 405px;
+	margin-top: calc(3%);
+}
+.qWen2{
+	width: calc(60%);
+	margin-left: calc(40%);
+	margin-top: calc(-27%)
+}
+.qWen2 img{
+	width: 32%;
+	height: 200px;
+}
+.qXWen3{
+	width:calc(31%);
+	height: 190px;
+	border: 5px solid #bc0000;
+	margin-left: calc(32.5%);
+	margin-top: calc(-44.8%)
+}
+.qWen3{
+	width: calc(28%);
+	height: 100px;
+	font-size: 18px;
+	box-shadow:2px 2px 3px #2E2E2B;
+	padding: 20px;
+	margin-top: calc(5%)
+}
+.qTu3{
+	width: calc(30%);
+	height: 100px;
+}
+.qTu3 img{
+	width: calc(50%)
+}
+.qTu3 p{
+	font-size: 20px;
+	margin-left: calc(50%);
+	padding-top: 10px
+}
+.qTu4{
+	width:calc(100%);
+	margin-top: calc(22%)
+}
+.qWen4{
+	width:calc(30%);
+	height: 500px;
+	text-align: center;
+	background-color: #282526;
+	margin-top: calc(-35%);
+	margin-left: calc(65%);
+	position:absolute;
+}
+.qWen4 p{
+	text-align: left;
+	font-size: 20px;
+	padding: 40px;
+	line-height: 30px;
+	color: #D6D4D3;
+}
+.qiao5{
+	width: calc(100%);
+	height: 650px;
+	background-color: rgba(229,224,224,0.8);
+	margin-top: calc(8%)
+}
+.qTu5{
+	width: calc(50%);
+	border-radius: 80px;
+	margin-top: calc(8%);
+	margin-left: calc(10%)
+}
+.qWen5 {
+	width: calc(30%);
+	height: 280px;
+	border-radius: 50px;
+	background-color: #ffffff;
+	text-align: center;
+	margin-left: calc(60%);
+	margin-top: calc(-25%)
+}
+.qWen5 p{
+	font-size: 22px;
+	text-align: left;
+	padding: 30px;
+	line-height: 30px;
+}
+.qTu6{
+	width: calc(40%);
+	margin-left: calc(15%);
+	margin-top: calc(3%)
+}
+.qWen6{
+	position:absolute;
+	width: calc(32%);
+	height: 250px;
+	background-color: #bc0000;
+	margin-left: calc(50%);
+	margin-top: calc(-22%);
+	text-align: center;
+}
+.qWen6 p{
+	text-align: left;
+	font-size: 20px;
+	padding: 30px 60px;
+	color:#FCE7AE;
+}
+.qBox3{
+	width: 100px;
+	height: 40px;
+	background-color: rgba(69,65,67,0.8);
+	margin-top: calc(2%);
+	margin-left: calc(3%)
+}
+
+.jie{
+	width: calc(100%);
+	height: 100px;
+	background-color:rgba(227,224,225,0.8);
+	margin-top: calc(3%);
+}
+.qBox4{
+	position:absolute;
+	width: 100px;
+	height: 65px;
+	border: 2px solid #bc0000;
+	margin-left: calc(30%);
+	margin-top: calc(1%)
+}
+.qBox4 p{
+	margin-left: 5px;
+	margin-top: 5px;
+	text-align: center;
+	width: 90px;
+	height: 55px;
+	font-size: 18px;
+	background-color: #494341;
+	color:#ffffff;
+}
+.qWen7{
+	text-align: center;
+	width: 170px;
+	padding: 10px;
+	font-size: 30px;
+	color:#FCE7AE;
+	background-color: #bc0000;
+	margin-left: calc(40%);
+	margin-top: calc(1%);
+	position: absolute;
+}

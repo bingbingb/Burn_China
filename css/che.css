@@ -1,0 +1,208 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2019-7-31, 16:27:24
+    Author     : sucb
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+.cbeijing {
+	width: calc(100%);
+	margin-top: calc(7%);
+}
+.cWen{
+	margin-top: calc(7.3%);
+	font-size: 30px;
+	margin-left: calc(20%);
+}
+.cxian{
+	color: #666666;
+	font-size:40px;
+}
+.suTu1{
+	height: calc(100%);
+	width: calc(100%);
+	position: relative;
+}
+.cTu1, .cTu3{
+	width: calc(27%);
+	height: calc(54%);
+	float: left;
+	margin-top: calc(1%);
+}
+.cTu1{
+	margin-left: calc(10%);
+}
+.cTu1 img, .cTu3 img{
+	width: 100%;
+	
+	vertical-align: bottom;
+}
+.cTu2{
+	width: calc(27%);
+	float: left;
+	margin-top: calc(4%);
+	vertical-align: bottom
+}
+.cTu2 img{
+	width: 100%;
+	height: calc(30%);	
+	vertical-align: bottom
+}
+.cTuWen{
+	width: 88%;
+	padding: 20px 20px;
+	border:5px solid #bc0000;
+	font-size: 33px;
+	background-color: #fff5d1
+}
+.suTu2{
+	position:relative;
+}
+.gaoTu1{
+	font-size: 28px;
+	width: calc(70%);
+	height: 200px;
+	margin-top: calc(10%);
+	margin-left: calc(24%);
+}
+.gaoTu2{
+	width: calc(25%);
+	height: 500px;
+	border-left: 15px solid #bc0000;
+	padding: 20px 20px;
+	margin-left: calc(10%);
+	margin-top: calc(-8%);
+}
+.gaoWen{  
+	margin: 15px 15px;
+	padding: 20px 20px;
+	background-color: #bc0000;
+	color: #FDE7AF;
+	font-size: 33px;
+}
+.gaoTu3 {
+	width: calc(50%);
+	margin-top: calc(-31%);
+	margin-left: calc(39%);
+	position:absolute;
+}
+.suTu3{
+	
+}
+.gaoTu4{
+	width: calc(52%);
+	margin-left: calc(5%);
+	margin-top: calc(1%);
+}
+.gaoWen2{
+	width: calc(30%);
+	height: 230px;
+	background-color:#676465;
+	position:relative;
+	font-size: 26px;
+	margin-top: calc(-23%);
+	margin-left: calc(56.7%);
+	padding: 10px 10px;
+	color: #E5E2DD;
+}
+.gaoWen3{
+	height: 160px;
+	width: 75px;
+	font-size: 40px;
+	background-color: #4E4B4C;
+	margin-left: calc(28%);
+	margin-top: calc(8%);
+	text-align: center;
+	color: #FBCA4B;
+}
+.gaoTu5{
+	width:calc(50%);
+	margin-top: calc(-30%);
+	margin-left: calc(40%);
+}
+.gaoWen4{
+	font-size: 25px;
+	font-weight: 600;
+	margin-left: calc(30%);
+	margin-top: calc(1%);
+	letter-spacing: 10px;
+}
+.gaoWen5{
+	width:300px;
+	height: 2px;
+	border-top:5px solid #000000;
+	margin-left: calc(75%);
+	margin-top: calc(-2%);
+}
+.gaoTu6{
+	background-color: #E6E0E1;
+	width: calc(65%);
+	height: 720px;
+	margin-left: calc(8%);
+	margin-top: calc(5%);
+	padding-left: 15%;
+	padding-top: 2%;
+}
+.gaoWen6 img{
+	width: 150px;
+	height: 150px;
+	position:absolute;	
+}
+.gaoWen6{
+	font-size: 27px;
+	letter-spacing: 8px;
+	position:relative;
+	font-weight: 600;
+	margin-top: calc(2%);
+}
+.gaoTu7{
+	width:calc(60%);
+	height: 500px;
+	margin-left: calc(20%);
+	margin-top: calc(5%);
+}
+.gaoWen7{
+	width: 270px;
+	height: 400px;
+	font-size: 25px;
+	letter-spacing: 3px;
+	line-height: 45px;
+	padding: 20px 20px;
+	background-color: #bc0000;
+	color:#FDE7AF;
+	margin-left: calc(20%);
+}
+.gaoTu8{
+	width: 578px;
+	height: 320px;
+	margin-left: calc(42%);
+	margin-top: calc(-29%);
+	position:absolute;
+}
+.gaoWen8, .gaoWen9{
+	display: inline-block;
+	border-top:10px solid #494647;
+	position:absolute;
+}
+.gaoWen8{
+	width: calc(30%);
+	margin-top: calc(-4%);
+	margin-left: calc(48%);
+}
+.gaoWen9{
+	width: calc(15%);
+	margin-top: calc(-1%);
+	margin-left: calc(60%);
+}
+.gaoTu9{
+	width: calc(100%);
+	height: 50px;
+	background-color: #E6E0E1;
+	margin-top: calc(3%);
+}

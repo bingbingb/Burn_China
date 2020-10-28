@@ -1,0 +1,129 @@
+html,body{
+	margin:0;
+	padding:0;
+	height:100%;
+	overflow:auto;
+	font-family:"黑体";
+	min-height:960px;
+	}
+#chalkboard{
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:1;
+	cursor:none;
+	}
+.chalk{
+	width:40px;
+	height:50px;
+	background:url(../img/chalk.png);
+	position:absolute;
+	padding:0;
+	margin:0;
+	bottom:0;
+	left:0;
+	cursor:none;
+	z-index:2;
+	}
+#background {
+	position: absolute;
+	z-index: 1;
+	background-image: url("../img/boardBg.jpg");
+	background-size: cover;
+	top: 100px;
+	width: 100%;
+	height:calc(100% - 100px);
+}
+
+.eraser{
+	width: 50px;
+	height: 100px;
+	margin-top: -50px;
+	margin-left: -25px;
+	background: #999;
+	border-radius: 5px;
+	box-shadow: inset 0 0 10px #545445;
+}
+.panel{
+	display: block;
+	font-size: 18px;
+	color: #333;
+	font-family: sans-serif;
+	position:fixed;
+	bottom:10px;
+	z-index:5;
+	text-align: center;
+	width: 100%;
+}
+.panel *{
+	display: inline-block;
+	padding: 0.5em 1em;
+	background:#ccc;
+	height: 40px;
+	text-decoration: none;
+	cursor: pointer;
+	opacity: 0.8;
+	margin-right: 0.5em;
+}
+.panel *:hover{
+	opacity: 1;
+}
+
+#chalkboard {
+	width:1024px;
+	height: 720px;
+	position: relative;
+}
+
+#boardDv{
+	width: 1024px;
+	height: 720px;
+	margin-top:150px;
+	box-shadow: 0 0 1px #888888;
+	/*border: #888888 solid 1px;*/
+}
+
+#canvasBorder{
+	width: 1300px;
+	height: 760px;
+	margin-top:130px;
+	position: absolute;
+	top:0px;
+	z-index: -1;
+	background-image: url("../img/paper.jpg");
+	box-shadow: 10px 10px 5px rgba(136, 136, 136, 0.56);;
+}
+
+#zhou{
+	position: absolute;
+	margin-top:122px;
+	/*box-shadow: 0 30px 100px #888888;*/
+	top:0px;
+}
+
+textarea{
+	background-color: transparent;
+	line-height: 1.2;
+	border:0px;
+	font-size: 15px;
+	letter-spacing : 1px;
+	word-wrap: break-word;
+	word-break: break-all;
+	width: 350px;
+	height: 50px;
+}
+.title:hover{
+	cursor:move;
+}
+#box{
+	height: 100px;
+	position:absolute;
+	z-index: 3;
+}
+#dragTextDv{
+	display: none;
+	z-index: 999;
+	position: absolute;
+}

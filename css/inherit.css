@@ -1,0 +1,158 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2019-8-6, 14:59:49
+    Author     : sucb
+*/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.beijing{
+	width: calc(100%);
+	margin-top: calc(7%);
+}
+.ceng1{
+	
+}
+.ceWen1{
+	width: calc(25%);
+	background-color: #E6E0E1;
+	font-size: 18px;
+	line-height: 25px;
+	color:#383634;
+	margin-left: calc(17%);
+	margin-top: calc(7%);
+}
+.ceWen1 img{
+	width: 100%;
+}
+.ceBiao1{
+	font-size: 30px;
+	text-align: center;
+	padding:10px 0px;
+}
+.ceWen2{
+	width: calc(38%);
+	background-color: #bc0000;
+	margin-left: calc(42%);
+	margin-top: calc(-38.6%);
+}
+.cexWen1{
+	width: 35px;
+	height: 140px;
+	text-align: right;
+	font-size: 20px;
+	color:#F6D884;
+	background-color: #bc0000;
+	padding-bottom: 24px;
+}
+.ceWen2 img{
+	width:100%;
+}
+.ceTu4{
+	width: calc(75%);
+	margin-left: calc(20%);
+	
+}
+.ceBiao2{
+	font-size: 35px;
+	text-align: center;
+}
+.ceBiao2 img{
+	width: 50px;
+	height: 50px;
+	vertical-align: -10px;
+}
+.cexian1{
+	display: inline-block;
+	border-top:5px solid #ccc;
+	vertical-align: 5px;
+	width: calc(20%);
+}
+.ceTu1{
+	width: calc(100%);
+	margin-top: calc(2%);
+}
+.ceWen3{
+	width:calc(45%);
+	font-size: 25px;
+	line-height: 40px;
+	background-color: rgba(213,143,139,0.7);
+	padding: 70px 100px 60px 100px;
+	margin-top: calc(-10%);
+	margin-left: calc(21%);
+	position:absolute;
+}
+.ceBox1{
+	width: calc(25%);
+	height: 70px;
+	background-color: #737072;
+}
+.ceWen4{
+	width: calc(100%);
+	height: 600px;
+	background-color: #E6E0E1;
+	margin-top: calc(5%);
+}
+.ceWen5{
+	font-size: 25px;
+	width: calc(25%);
+	height: 50px;
+	position:absolute;
+	margin-top: calc(6%);
+	margin-left: calc(51%);
+}
+.ceWen6{
+	font-size: 25px;
+	width: calc(22%);
+	height: 100px;
+	position:absolute;
+	margin-top: calc(22%);
+	margin-left: calc(15%);
+}
+.ceTu2{
+	width: calc(40%);
+	position: absolute;
+	margin-left: calc(60%);
+	margin-top: calc(15.5%);
+}
+.ceTu3{
+	width: calc(25%);
+	position: absolute;
+	margin-top: calc(-5%);
+}
+.ceWen7{
+	width: calc(25%);
+	height: 200px;
+	font-size: 20px;
+	line-height: 35px;
+	letter-spacing: 1px;
+	margin-top: calc(-26%);
+	margin-left: calc(57.5%);
+}
+.ceTu6{
+	width: calc(50%);
+	margin-left: calc(50%);
+	margin-top: calc(-12%);
+}
+.ceTu5{
+	width: calc(45%);
+	margin-left: calc(12.5%);
+	margin-top: calc(5%);
+}
+.ceBox2{
+	width:100%;
+	height: 47px;
+	background-color: #bc0000;
+}
+.jie{
+	width: calc(100%);
+	height: 100px;
+	background-color: rgba(227,224,225,0.9);
+	margin-top: calc(20%);
+}

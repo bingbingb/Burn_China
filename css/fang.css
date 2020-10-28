@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2019-8-9, 16:38:26
+    Author     : sucb
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+.beijing{
+	width: calc(100%);
+	margin-top: calc(7%);
+	
+}
+.fxian{
+	display: inline-block;
+	border-top:5px solid #bc0000;
+	vertical-align: 50px;
+	width: calc(44.5%)
+}
+.fWen1{
+	margin-top: calc(-46.2%)
+}
+.fangWen{
+	width: calc(50%);
+	text-align: center;
+	background-color: #fff;
+	margin-left: calc(25%);
+	margin-top: calc(-26.5%);
+}
+.fangWen h1{
+	padding-top: 20px;
+}
+.fangWen p{
+	text-align: left;
+	font-size: 20px;
+	padding: 20px 30px;
+	line-height: 30px;
+}
+.fTu1{
+	width: calc(45%);
+	height: 300px;
+}
+.fTu2{
+	width: calc(25%);
+	height: 300px;
+}
+.fTu3{
+	width: calc(35%);
+	height: 600px;
+	margin-left: calc(15%);
+	margin-top: calc(5%)
+}
+.fWen2{
+	width: calc(35%);
+	height: 590px;
+	border: 5px solid #bc0000;
+	margin-top: calc(-39.8%);
+	margin-left: calc(50%);
+	background-color: #FFF3DA;
+}
+.fxWen1{
+	text-align: center;
+	padding-top: 80px;
+	font-size: 30px;
+	letter-spacing: 3px;
+}
+.fxWen2{
+	font-size: 23px;
+	padding: 30px 50px 30px 50px;
+	line-height: 40px;
+	letter-spacing: 4px;
+}
+.fTu4{
+	width: calc(100%);
+	height: 600px;
+	margin-top: calc(3%)
+}
+.fTu5{
+	width: calc(30%);
+	margin-top: calc(7%);
+}
+.fWen3{
+	width:calc(35%);
+}
+.fxWen3{
+	font-size: 30px;
+	text-align: center;
+	padding: 30px;
+}
+.fxWen4{
+	font-size: 20px;
+	line-height: 30px;
+	padding: 10px 80px
+}
+.jie{
+	width: calc(100%);
+	height: 30px;
+	background-color: #E4E1E0;
+	margin-top: calc(1%)
+}

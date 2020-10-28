@@ -1,0 +1,168 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2019-8-6, 14:59:39
+    Author     : sucb
+*/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	overflow-x: hidden;
+	background-color: rgba(255,224,225,0.8)
+}
+.beijing{
+	width: calc(100%);
+	margin-top: calc(7%);
+}
+.lanBiao1 img{
+	width: 70px;
+}
+.lanBiao1{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 10px;
+	
+}
+.lanWen1{
+	width: calc(25%);
+	height: 320px;
+	padding: 0 50px;
+	background-color: #ffffff;
+}
+.lanWen2{
+	width: calc(65.3%);
+	font-size: 20px;
+	background-color: #ffffff;
+	margin-top: calc(2.5%);
+}
+.lanTu1{
+	width: 30%;
+	margin-top: calc(-32%);
+	margin-left: calc(65%);
+}
+.lanWen2 p{
+	width: 60%;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+.lanWen3{
+	width: calc(25%);
+	height: 400px;
+	padding: 0 50px;
+	background-color: #ffffff;
+	margin-top: calc(-26.3%);
+	margin-left: calc(68.2%);
+}
+.lanImg1{
+	width: 8%;
+	position:absolute;
+	margin-top: calc(-2%);
+	margin-left: calc(-60%)
+}
+.lanTu2{
+	background-color: #ffffff;
+	margin-top: calc(2%);
+}
+
+.lanTu2 img{
+	width:calc(23%);
+	padding: 10px 12px;
+}
+
+.lanTu3{
+	width:calc(50%);
+	height: 400px;
+	margin-left: calc(50%);
+	margin-top: calc(1.5%)
+	
+}
+.lanWen4{
+	width: calc(45.5%);
+	background-color: #ffffff;
+	padding: 20px 20px;
+	margin-top: calc(-26.6%);
+}
+.lanBiao2{
+	font-size: 30px;
+	height: 50px;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+.lanxWen5{
+	font-size: 20px;
+	margin-left: 70px;
+	margin-top: 20px;
+	padding-bottom: 25px;
+}
+.lanTu4 img{
+	width: calc(18.5%);
+	background-color: #F9F7F6;
+	margin-top: calc(3%);
+	margin-left: calc(1%)
+	
+}
+.lanWen5{
+	font-size: 20px;
+	background-color: #ffffff;
+	height: 300px;
+	margin-top: calc(1%);
+}
+.lanWen5 p{
+	width: calc(17%);
+	padding: 20px 20px;
+}
+.lanBox{
+	width:calc(100%);
+	height: 70px;
+	background-color: rgba(251,246,247,0.8);
+}
+.lanTu5{
+	width: calc(100%);
+	margin-top: calc(5%);
+}
+.lanWen6{
+	width: calc(20%);
+	height: 320px;
+	background-color: #ffffff;
+	padding: 20px 20px;
+	margin-top: calc(2%);
+}
+.lanBiao3 img{
+	width:60px;
+	vertical-align: -10px;
+}
+.lanBiao3{
+	font-size: 30px;
+}
+.lanWen7{
+	width: calc(45%);
+	height: 380px;
+	background-color: #ffffff;
+	margin-top: calc(-25%);
+	margin-left: calc(55%);
+}
+.lanWen7 img{
+	width: 100%;
+	height: 250px;
+}
+.lanTu6{
+	width: calc(22%);
+	text-align: center;
+	font-size: 20px;
+	padding: 50px 20px 20px 20px;
+	margin-top: calc(2%);
+}
+.lanTu6 img{
+	width: 100%;
+}
+.lanxTu7{
+	width: calc(40%);
+	margin-top: calc(-10%);
+	margin-left: calc(60%);
+}
